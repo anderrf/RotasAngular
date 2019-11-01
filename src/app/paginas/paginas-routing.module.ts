@@ -8,6 +8,7 @@ import { ContatoComponent } from './components/contato';
 export const RoutePaginas = [
     {path: 'inicial', component: InicialComponent},
     {path: 'quem-somos', component: QuemSomosComponent},
-    {path: 'contato', component: ContatoComponent}
+    {path: 'contato', component: ContatoComponent},
+    {path: '', component: InicialComponent}
 
 ]
